@@ -4,9 +4,11 @@
 //Course CMP-129-80231
 public class Person 
 {
-    private String name;
+    //initalizing private variables for name, age and email
+    private String name; 
     private double age;
     private String email;
+    //get and set methods for each of the variables
     public String getName() 
     {
         return name;
@@ -31,6 +33,7 @@ public class Person
     {
         this.email = email;
     }
+    //method to format the person's info with each variable and display it 
     public void displayInfo() 
     {
         System.out.println("Person Information");

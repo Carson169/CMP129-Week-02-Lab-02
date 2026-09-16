@@ -1,5 +1,5 @@
 //Carson Samples
-//Lab Assignment 4A
+//Lab Assignment 4B
 //9.16.26
 //Course CMP-129-80231
 public class Person 
@@ -8,6 +8,13 @@ public class Person
     private String name; 
     private double age;
     private String email;
+    //paramterized constructor to initalize a person object with all attributes
+    public Person(String name, double age, String email) 
+    {
+        this.name = name;
+        this.age = age;
+        this.email = email;
+    }
     //get and set methods for each of the variables
     public String getName() 
     {
